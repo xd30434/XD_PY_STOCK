@@ -95,7 +95,7 @@ def show_stock_company_info(gui_main, item):
     gui_main.layout_detail.addLayout(new_line('办公地址:', data['oaddr'], 'text'))
     gui_main.layout_detail.addLayout(new_line('公司简介:', data['desc'], 'text2'))
     gui_main.layout_detail.addLayout(new_line('经营范围:', data['bscope'], 'text2'))
-    gui_main.layout_detail.addLayout(new_line('概念及板块:', data['idea'], 'text'))
+    gui_main.layout_detail.addLayout(new_line('概念及板块:', data['idea'], 'text2'))
     gui_main.layout_detail.addLayout(new_line('承销方式:', data['printype'], 'text'))
     gui_main.layout_detail.addLayout(new_line('上市推荐人:', data['referrer'], 'text'))
     gui_main.layout_detail.addLayout(new_line('发行方式:', data['putype'], 'text'))

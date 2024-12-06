@@ -1,4 +1,6 @@
 import requests
+from matplotlib.font_manager import FontProperties
+
 
 def http_request(url, method='GET', data=None):
     """
@@ -22,3 +24,6 @@ def http_request(url, method='GET', data=None):
     except requests.RequestException as e:
         print(f"请求错误: {e}")
         return None
+
+# 定义一个支持中文的字体
+chinese_font = FontProperties(fname='C:/Windows/Fonts/simhei.ttf') # 对应你系统的字体路径

@@ -1,7 +1,7 @@
 from common import http_request
 from config_base import license_code
 
-url_prefix = 'http://v.mairui.club/'
+url_prefix = 'http://api.mairui.club/'
 
 def get_stock_hs_list():
     """
